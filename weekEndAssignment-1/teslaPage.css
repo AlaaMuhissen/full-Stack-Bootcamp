@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  
+  }
+  svg{
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 10%;
+    height: 10%;
+  }
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .Menu{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 25px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  /* #icon1{
+    float: right;
+  } */
+  .content{
+    position: fixed;
+    color: #f1f1f1;
+    margin-top: 10%;
+    margin-left: 40%;
+    text-align: center;
+     
+  }
+  #modelNum{
+    font-size: 50px;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  #navBar {
+    position: fixed;
+    top: 0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    display: inline;
+  }
+  
+  
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .buttons{
+    /* display: inline; */
+    position: fixed;
+    bottom: 10%;
+    width: 100%;
+    margin-left: 30%;
+    
+     
+   
+  }
+  button{
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+    outline: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    margin: 10px 12px;
+    cursor: pointer;
+    border-radius: 8px; 
+    color: rgb(21, 19, 19);
+    width: 20%;
+    font-weight: 500;
+  }
+  .disabled {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    font-weight: 500;
+    opacity: 0.8;
+    width: 20%;
+  }
+  footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    margin-left: 30%;
+    color: #f1f1f1;
+  }
