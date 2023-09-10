@@ -1,0 +1,29 @@
+*{
+    height: 100%;
+    color: white;
+  }
+  .boxs{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+  #box1, #box2, #box3 {
+    width: 30%;
+    height: 40%;
+    border-radius: 10%;
+    margin-top: 10%;
+    background-color: rgb(219, 77, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+  }
+  #box1{
+    background-color: rgb(219, 77, 77);
+  }
+  #box2{
+    background-color: rgb(244, 128, 128);
+  }
+  #box3{
+    background-color: rgb(250, 170, 170);
+  }
