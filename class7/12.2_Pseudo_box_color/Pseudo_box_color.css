@@ -1,0 +1,26 @@
+
+*{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .parentBox{
+    position: relative;
+    background-color: rgb(49, 239, 239);
+    height: 50%;
+    width: 40%;
+  }
+  .parentBox ::after{
+    position: absolute;
+    background-color: rgb(42, 110, 110);
+    height: 100%;
+    width: 50%;
+    content: "";
+    
+  }
+  
