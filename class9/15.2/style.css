@@ -1,0 +1,48 @@
+/* *{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.item1 {
+    grid-area: red;
+    background-color: rgb(218, 32, 32) ;
+    border-radius: 5%;
+    }
+   .item2 {
+     grid-area: blue;
+     background-color: rgb(59, 122, 230) ;
+     border-radius: 5%;
+    }
+   .item3 { 
+     grid-area: green;
+     background-color: rgb(28, 159, 63) ;
+     border-radius: 5%;
+   }
+   .item4 { 
+     grid-area: lilac;
+     background-color: rgb(195, 46, 150) ;
+     border-radius: 5%;
+   
+   }
+   .item5 { 
+     grid-area: lilac1;
+     background-color: rgb(195, 46, 150) ;
+     border-radius: 5%; }
+   
+   .grid-container {
+     display: grid;
+     grid-template-areas:
+       'red red red red'
+       'blue blue green green'
+       'blue blue lilac lilac1';
+     gap: 1%;
+     padding: 50px;
+     grid-row-gap: 2%;
+   }
+   
+   .grid-container  section {
+     text-align: center;
+     padding: 80px 20px;
+     
+   }
